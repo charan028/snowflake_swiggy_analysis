@@ -5,6 +5,9 @@
 This repository provides a structured approach to implementing a scalable data warehouse using **Snowflake**, based on **Medallion Architecture** principles. It includes entity-level ingestion, delta processing, stream usage, and optimized COPY commands for efficient data loading.
 
 ---
+# star schema
+<img src="sandbox_snowflake.png" width="600"/>
+
 
 ## 🏗️ Project Architecture: Medallion Layers
 
@@ -93,3 +96,9 @@ Delta files contain:
 | `_ID`  | Primary Key   |
 | `_PK`  | Primary Key   |
 ```
+
+# app ui 
+
+<img src="Screenshot 2025-06-03 at 10.33.05 PM.png" width="600"/>
+<img src="Screenshot 2025-06-03 at 10.33.47 PM.png" width="600"/>
+<img src="Screenshot 2025-06-03 at 10.34.10 PM.png" width="600"/>
